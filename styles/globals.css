@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.kartu {
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.kartu:hover {
+    background-color: red;
+}
