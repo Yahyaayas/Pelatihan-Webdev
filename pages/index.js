@@ -112,7 +112,8 @@ export default function Home() {
                   <Button type="X" className="text-[10px] italic p-[3px] bg-red-500 hover:bg-red-600 text-white text-[5px] italic py-1 px-2 rounded" onClick={() => handleDelete(letter.id)}/>
               </div>
         </div>
-      ))}
+        /* Output content end */
+        ))}
       </div>
   </>
   );
